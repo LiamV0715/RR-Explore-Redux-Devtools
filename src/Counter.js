@@ -11,7 +11,7 @@ function Counter() {
         e.preventDefault()
         dispatch(incrementByAmount(Number(input)))
     }
-
+ 
     return (
         <div>
             <h1>{count}</h1>
